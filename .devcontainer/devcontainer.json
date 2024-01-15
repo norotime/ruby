@@ -1,10 +1,6 @@
 {
   "name": "DPro Ruby",
   "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
-  "waitFor": "onCreateCommand",
-  "onCreateCommand": "gem install solargraph -v '0.50.0' -N",
-  "updateContentCommand": "bundle install",
-  "postCreateCommand": "",
   "customizations": {
     "vscode": {
       "settings": {
