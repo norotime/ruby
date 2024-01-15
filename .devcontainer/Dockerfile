@@ -8,9 +8,9 @@ FROM mcr.microsoft.com/vscode/devcontainers/ruby:3
 # Set the default user to root for Codespaces
 USER root
 
-# Update and install the latest Ruby version 3.3
+# Update and install the latest Ruby version
 RUN apt-get update && apt-get install -y \
-    ruby-3.3
+    ruby-full
 
 # Clean up apt-get to reduce image size
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
