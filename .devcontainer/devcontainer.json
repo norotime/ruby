@@ -1,0 +1,8 @@
+{
+  "name": "Ruby Environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+  },
+  "extensions": [],
+  "postCreateCommand": "echo 'Post create command running...'"
+}
